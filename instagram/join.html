@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join-Page</title>
+    <link rel="stylesheet" href="../instagram_css/join.css">
+</head>
+<body>
+    <div id = "container_wrap">
+    <div class="join_cotainer">
+        <header class="logo">
+            <img class="brand_logo" src="../instagram_img/brand_logo.png" alt="logo">
+            <ul>
+                <li>친구들의 사진과 동영상을 보려면</li>
+                <li>가입하세요.</li>
+            </ul>
+        </header>
+        <div class="or_line">
+            <div class="line"></div>
+            
+            <div class="line"></div>
+        </div>
+            <form name="join" action="" method="post">
+                <input class="addEmail" type="text" placeholder="휴대폰 번호 또는 이메일 주소">
+                <input class="name" type="text" placeholder="성명">
+                <input class="id" type="text" placeholder="사용자 이름">
+                <input class="pw" type="password" placeholder="비밀번호">
+                <button class="joinBtn" type="button" onClick="joinClick()"><a href="#">가입</a></button>
+            </form>
+    </div>
+        <div class="account_login">
+            <ul>
+                <li>계정이 있으신가요?</li>
+                <li><a href="login.html">로그인</a></li>
+            </ul>
+    </div>
+    </div>
+    <script src="../instagram_js/join.js"></script>    
+    <script>
+        function joinClick() {
+            
+            alert("가입되었습니다. 로그인 해주십시오.");
+
+            
+            window.location.href = "login.html";
+        }
+    </script>
+</body>
+</html>

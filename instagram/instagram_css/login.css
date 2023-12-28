@@ -1,0 +1,134 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background: #fafafa;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#container_wrap{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.container{
+    background: #fff;
+    width: 350px;
+    height: 500px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 0.6rem;
+}
+
+.brand_logo{
+    display: block;  
+    width: 15rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+input{ 
+    display: block;
+    width: 250px;
+    height: 40px;
+    margin: 0 auto;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    text-indent: 5px;
+    outline-color: gray;
+}
+
+.loginBtn{ 
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    background: rgb(164, 216, 253);
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+.loginBtn a{
+    color: white;
+}
+input:first-child{
+    margin-bottom: 0.5rem;
+}
+input:nth-child(2){
+    margin-bottom: 1.5rem;
+}
+
+.or_line{
+    display: flex;
+    align-items: center;
+    margin: 1rem auto 0;
+    justify-content: center;
+}
+.line{
+    border-bottom: 1px solid #828181;
+    width: 6.3rem;
+}
+.text{
+    margin: 0 10px;
+    font-weight: bold;
+    color: #828181;
+}
+.findpw{
+    margin-top: 1rem;
+    font-size: small;
+    text-align: center;
+}
+.findpw a{
+    color: rgb(68, 68, 116);
+}
+
+
+.account{
+    background: #fff;
+    width: 350px;
+    height: 70px;
+    border: 1px solid #dbdbdb;
+}
+.account ul{
+    display:flex ;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.account ul a{
+    font-weight: bold;
+    color: rgb(43, 152, 247);
+}
+
+.appDownload {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.app img {
+    width: 250px;
+    height: 50px;
+    margin: 0 10px;
+}

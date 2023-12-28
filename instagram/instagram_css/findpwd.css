@@ -1,0 +1,118 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    height: 50px;
+}
+body {
+    background: #fafafa;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.findpwd_container{
+    background: #fff;
+    width: 400px;
+    height: 520px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 0.6rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+header{
+    background-color: white;
+    height: 65px;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+.logo .brand_logo{
+    width: 130px;
+    height: 55px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+.lock{
+    margin: 1.5rem auto;
+    width: 100px;
+}
+.first{
+    font-weight: bold;
+    margin: 0 auto 0.5rem;
+}
+.two{
+    margin: 0.5rem 2.8rem 0.5rem;
+    color: rgb(133, 130, 130);;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 0 auto 0.4rem;
+    background: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    text-indent: 7px;
+    outline-color: rgb(163, 162, 162);
+    font-size: 15px;
+}
+.loginLink{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 1.0rem auto;
+    border: none;
+    border-radius: 4px;
+    background: rgb(164, 216, 253);
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+}
+.loginLink a{
+    color: white;
+    font-size: 15px;
+}
+.or_line{
+    display: flex;
+    align-items: center;
+    margin: 2rem auto 1rem;
+    justify-content: center;
+}
+.line{
+    border-bottom: 1px solid #a5a3a3;
+    width: 8rem;
+}
+.text{
+    margin: 0 10px;
+    font-size: small;
+    font-weight: bold;
+    color: #a5a3a3;
+}
+.againBtn{
+    border-style: none;
+    background: none;
+}
+.againBtn a{
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+}
+.backTo .backToLogin{
+    display: block;
+    width: 400px;
+    height: 45px;
+    margin: 3rem auto;
+    background: #fafafa;
+    border: 1px solid #e0dfdf;
+}
+.backTo .backToLogin a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}

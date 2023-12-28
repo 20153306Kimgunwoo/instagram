@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+
+body{
+    background:#fafafa;
+    width:100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container_wrap{
+    width: 350px;
+    height:525px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: white;
+    border:1px solid #dbdbdb;
+    
+}
+
+.join_container{
+    background: #fff;
+    width:350px;
+    height:450px;
+    border:1px solid #dbdbdb;
+    margin-bottom: 0.6rem;
+    margin: 0 auto;
+    margin-top:3px auto;
+}
+
+
+.brand_logo{
+    display:block;
+    width:15rem;
+    margin:0 auto;
+    padding-top:1rem;
+    padding-bottom:0.5rem;
+}
+.logo li{
+    text-align:center;
+    font-weight:bold;
+    color:#918f8f;
+}
+.or_line{
+    display:flex;
+    align-items:center;
+    margin: 1rem auto 1rem;
+    justify-content: center;
+}
+
+.line{
+    border-bottom:1px solid #828181;
+    width:6.3rem;
+}
+.text{
+    margin:0 10px;
+    font-size:small;
+    font-weight:bold;
+    color:#828181;
+}
+input{
+    display:block;
+    width:250px;
+    height:35px;
+    margin: 0 auto 0.4rem;
+    background:#fafafa;
+    border:1px solid #dbdbdb;
+    border-radius: 3px;
+    text-indent:7px;
+    outline-color:gray;
+    font-size:12px;
+}
+.joinBtn{
+    display:block;
+    width:250px;
+    height:30px;
+    margin: 1.5rem auto;
+    border: none;
+    border-radius:4px;
+    background:rgb(164, 216, 253);
+    font-weight:bold;
+    font-size:medium;
+    color:white;
+}
+button a{
+    color: white;
+}
+.account_login{
+    background:#fff;
+    width:350px;
+    height:70px;
+    border:1px solid #dbdbdb;
+    margin:0.8rem auto;
+}
+.account_login ul{
+    display:flex;
+    justify-content:center;
+    padding-top: 1.5rem;
+}
+.account_login a{
+    color: rgb(43, 152, 247);
+    margin-left:0.2rem;
+    font-weight:bold;
+}

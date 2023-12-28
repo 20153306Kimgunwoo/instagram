@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main_page</title>
+    <link rel = "stylesheet" href="../instagram_css/main.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+</head>
+<body>
+    <header class="logo fixedclear">
+        <a href="main.html"><img class = "brand_logo" src="../instagram_img/font_logo.png" alt="logo"></a>
+        <div class = "other_logo">
+            <ul class="icon">
+                <li class=>
+                    <a href="main.html"><img class = "home" src="../instagram_img/home.png" alt="logo"></a>
+                </li>
+                <li class=>
+                    <a href="#"><img class = "plus" src="../instagram_img/plus.png" alt="plus"></a>
+                </li>
+                <li>
+                    <a href="#"><img class = "heart" src="../instagram_img/heart.png" alt="heart"></a>
+                </li>
+                <li>
+                    <a href="#"><img class="my_account" src="../instagram_img/my_photo.png" alt="my_account"></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="main_container">
+        <div class="top_Box">
+            <ul>
+                <li class="topUser">
+                <li>
+                    <a href="#"><img class="top_photo" src="../instagram_img/cat.png" alt="cat"></a>
+                </li>
+                <li>
+                    <a href="#"><img class="top_photo2" src="../instagram_img/nature.png" alt="nature"></a>
+                </li>
+                <li>
+                    <a href="#"><img class="top_photo3" src="../instagram_img/woman.png" alt="woman"></a>
+                </li>
+                <li>
+                    <a href="#"><img class="top_photo2" src="../instagram_img/nature.png" alt="nature"></a>
+                </li>
+            </ul>
+        </div>
+        <div class ="middle_Top">
+            <ul>
+                <li>
+                    <a href="#"><img class="my_photo" src="../instagram_img/my_photo.png" alt="my_photo"></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="my_account">
+                    <a href="#" type="text">hahaha</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"><img class="dot" src="../instagram_img/dot.png" alt="dot"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="middle_Box">
+            <img class = "photo" src="../instagram_img/photo.png" alt="photo">
+        </div>
+        <div class="middle_review">
+            <div class = "review_icon">
+                <ul class="fixedclear"> 
+                    <button class="heartBtn" onclick="addLike()"><i class=" xi-heart-o xi-2x"></i>
+                    </button>
+                    <li>
+                        <button class="spBubble"><i class="xi-speech-o xi-2x"></i></button>
+                    </li>
+                    <li>
+                        <button class="send"><i class="xi-location-arrow xi-2x"></i></button>
+                    </li>
+                    <li>
+                        <button class="bookmark"><i class="xi-bookmark-o xi-2x"></i></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="comment_part">
+            <ul>
+                <li class="like_count" onchange="countPlus()">
+                    좋아요 1324개 
+                </li>
+            </ul>
+            <div>
+                <ul>
+                    <li class="li">
+                        <div>
+                            <div class="comment">
+                                <span class="user">heewo</span>
+                                <span class="userComment">멋지네!!</span>
+                                
+                            </div>
+                            <button class="likeHeart" onclick="pushHeart()" ></button>
+                            <button class="removeComment" onclick="removeComm()" ></button>
+                        </div>
+                        <time class="before">1일전</time>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="middle_add_review">
+            <ul>
+                <li>
+                    <img class = "smile" src="../instagram_img/smile.png" alt="smile">
+                </li>
+            </ul>
+            <input class="input_review" type="text" oninput="inputReview()"  placeholder="댓글 달기...">
+            <button class="review_upload" onclick="uploadReview()">게시</button>
+        </div>
+        <div class = "bottom_Box">
+            <ul>
+                <div class="bottom_Box_my_phAccount fixedclear">
+                    <li>
+                        <a href="#"><img class="my_photo" src="../instagram_img/my_photo.png" alt="my_photo"></a>
+                    </li>
+                    <li class="my_account">
+                        <a href="#" type="text">hahaha</a>
+                    </li>
+                </div>
+                <li class="reco">
+                    회원님을 위한 추천
+                </li>
+                <button class="allView" type="button">모두 보기</button>
+                <li>
+                    <div class="recomm_user_img">
+                        <a href="#"><img class="profileImg1" src="../instagram_img/woman.png" alt="recommendUserImg"></a>
+                        <li class="profileName1">green_tea</li>
+                        <li class="recommUser1">회원님을 위한 추천</li>
+                        <button class="follow1">팔로우</button>
+                        <a href="#"><img class="profileImg2" src="../instagram_img/cat.png" alt="recommendUserImg"></a>
+                        <li class="profileName2">cieel04</li>
+                        <li class="recommUser2">dfso님 외 3명이 팔로우합니다</li>
+                        <button class="follow2">팔로우</button>
+                        <a href="#"><img class="profileImg3" src="../instagram_img/nature.png" alt="recommendUserImg"></a>
+                        <li class="profileName3">juy_as14</li>
+                        <li class="recommUser3">joy님 외 10명이 팔로우합니다</li>
+                        <button class="follow3">팔로우</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

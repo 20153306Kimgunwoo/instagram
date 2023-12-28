@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>findpwd_page</title>
+    <link rel="stylesheet" href="../instagram_css/findpwd.css">
+</head>
+<body>
+    <header class="logo">
+        <img class="brand_logo" src="../instagram_img/font_logo.png" alt="logo">
+    </header>
+    <div class="findpwd_container">
+        <div>
+            <img class="lock" src="../instagram_img/lock.png" alt="logo">
+            <ul>
+                <li class="first">로그인에 문제가 있나요?</li>
+                <li class="two">이메일 주소, 전화번호 또는 사용자 이름을 입력하시면 계정에 다시 액세스할 수 있는 링크를 보내드립니다.</li>
+            </ul>
+        </div>
+        <form name="findInfo" action="" method="post">
+            <input class="mailPhName" type="text" placeholder="이메일, 전화번호, 사용자 이름" id="emailInput">
+            <button class="loginLink" onClick="loginLink()"><a href="#">로그인 링크 보내기</a></button>
+        </form>
+        <div class="or_line">
+            <div class="line"></div>
+            <div class="text">또는</div>
+            <div class="line"></div>
+        </div>
+        <div class="newAccount">
+            <button class="againBtn"><a href="join.html">새 계정 만들기</a></button>
+        </div>
+        <div class="backTo">
+            <button class="backToLogin"><a href="login.html">로그인으로 돌아가기</a></button>
+        </div>
+    </div>
+    <script src="js/findpwd.js"></script>
+    <script>
+        function loginLink() {
+            
+            const emailInput = document.getElementById("emailInput").value;
+
+            
+            alert(`인증번호가 ${emailInput}로 전송되었습니다.`);
+        }
+    </script>
+</body>
+</html>
